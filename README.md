@@ -1,7 +1,7 @@
 # Input/Output Search App
 
 ## Overview
-This I/O Search App is an interactive internface that a user can search any keywords within a CSV file that contains 65k Indiegogo Projects, then it saves the results into a new CSV file at user's preferred location. 
+This I/O Search App is an interactive interface where users can search keywords within a CSV file containing 65k Indiegogo Projects; then, it saves the results into a new CSV file at the user's preferred location. 
 ![Screen Shot 2022-05-29 at 7 11 16 PM](https://user-images.githubusercontent.com/84875731/170904685-68eefbf8-c6f8-44b8-a43f-e3d57788b940.png)
 
 ## Implementation
