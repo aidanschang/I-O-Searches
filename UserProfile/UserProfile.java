@@ -75,7 +75,6 @@ public class UserProfile {
 				"\nHi " + userName + ", what would you like to do? \n1. Search a key\n2. View Search History\n3. View Search Summary\n4. Delete Search History\n5. Change default saved file path\n6. View default saved file path\n7. Exit program"
 		);
 		Integer answer = input.nextInt();
-		input.close();
 		return answer;
 	}
 	
@@ -84,7 +83,6 @@ public class UserProfile {
 		String keyWord;
 		Scanner input = new Scanner(System.in);
 		keyWord = input.nextLine();
-		input.close();
 		
 		//create timestamp
 		Date date = new Date(System.currentTimeMillis());
@@ -146,7 +144,6 @@ public class UserProfile {
 		Scanner input = new Scanner(System.in);
 		fileSaveLocation = input.nextLine();
 		char lastChar = fileSaveLocation.charAt(fileSaveLocation.length()-1);
-		input.close();
 		
 		if (String.valueOf(lastChar).equals("/")) {
 		} else {
