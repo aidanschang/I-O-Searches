@@ -8,6 +8,7 @@ This I/O Search App is an interactive internface that a user can search any keyw
   ### Cleaning the Data
   While reading the CSV file, I noticed some of the raw data occupied multiple lines and throws index error during searches. By identifying the cause of   the errors, I filtered out the bad lines while iterating over the data.
   ![Screen Shot 2022-05-29 at 7 16 35 PM](https://user-images.githubusercontent.com/84875731/170905153-cfb431f1-9f29-4ea3-8f30-6436e5d7faa0.png)
-  ###  
+  ### LinkedHashMap
+  I am using the LinkedHashMap to store search histories. The key is the timestamp and values is the keyword of the search. The LinkedHashMap data structure provides search time of O(1)
 
 
